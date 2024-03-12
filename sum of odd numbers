@@ -1,0 +1,7 @@
+def sum_of_odd_numbers(n):
+    return n ** 2
+
+# Example usage:
+n = int(input("Enter the value of n: "))
+result = sum_of_odd_numbers(n)
+print("The sum of the first", n, "odd numbers is:", result)
